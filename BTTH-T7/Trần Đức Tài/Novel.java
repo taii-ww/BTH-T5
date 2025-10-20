@@ -1,4 +1,4 @@
-public class Novel extends SACH {
+public class Novel extends SACH  {
     
   private String Theloai;
   private boolean lasachseries;
@@ -56,4 +56,7 @@ public class Novel extends SACH {
     else
      return giaCoBan;
   }
+
 }
+
+
