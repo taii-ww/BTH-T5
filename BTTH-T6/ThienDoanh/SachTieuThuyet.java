@@ -12,7 +12,12 @@ public class SachTieuThuyet extends Sach {
     @Override
     public String toString() {
         return super.toString() +
+<<<<<<<< HEAD:BTTH-T6/SachTieuThuyet.java
                 ", Thể loại: " + theLoai +
                 ", Là series: " + (laSachSeries ? "Có" : "Không");
+========
+               ", Thể loại: " + theLoai +
+               ", Là sách series: " + (laSachSeries ? "Có" : "Không");
+>>>>>>>> 683972fd28fca78e6732c011da8bb05ceac246c9:BTTH-T6/ThienDoanh/SachTieuThuyet.java
     }
 }

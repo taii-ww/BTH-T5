@@ -12,7 +12,12 @@ public class SachGiaoTrinh extends Sach {
     @Override
     public String toString() {
         return super.toString() +
+<<<<<<<< HEAD:BTTH-T6/lop con1.java
                 ", Môn học: " + monHoc +
                 ", Cấp độ: " + capDo;
+========
+               ", Môn học: " + monHoc +
+               ", Cấp độ: " + capDo;
+>>>>>>>> 683972fd28fca78e6732c011da8bb05ceac246c9:BTTH-T6/ThienDoanh/SachGiaoTrinh.java
     }
 }
